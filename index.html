@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Școala de Șoferi Stelad - Brașov</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Welcome Modal -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bun venit la Școala Stelad!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Începe călătoria ta spre obținerea permisului de conducere alături de cei mai buni instructori!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuă</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="Stelad Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#despre">Despre Noi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cursuri">Cursuri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoniale">Testimoniale</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inscriere">Înscriere</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teste">Teste</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1>Școala de Șoferi Stelad</h1>
+                    <p class="lead">Învață să conduci cu încredere alături de instructori profesioniști</p>
+                    <div class="cta-buttons">
+                        <a href="#inscriere" class="btn btn-primary btn-lg">Înscrie-te Acum</a>
+                        <a href="#teste" class="btn btn-outline-primary btn-lg ms-3">Încearcă Testele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Despre Noi -->
+        <section id="despre" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Despre Noi</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Școala de Șoferi Stelad oferă cursuri de calitate pentru obținerea permisului de conducere. Cu o rată de promovare de 76%, suntem dedicați succesului elevilor noștri.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>76%</h3>
+                                <p>Rată de Promovare</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursuri -->
+        <section id="cursuri" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Cursuri Disponibile</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3>Categoria B</h3>
+                                <p>Curs complet pentru obținerea permisului auto categoria B</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> Vârsta minimă: 18 ani</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Pregătire teoretică și practică</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Instructori cu experiență</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Mașini moderne și sigure</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3>Categoria B1</h3>
+                                <p>Curs special adaptat pentru tineri</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i> Vârsta minimă: 15 ani și 9 luni</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Program flexibil pentru elevi</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Instruire adaptată tinerilor</li>
+                                    <li><i class="fas fa-check text-success me-2"></i> Vehicule ușor de manevrat</li>
+                                </ul>
+                                <div class="mt-3">
+                                    <small class="text-muted">* Categoria B1 permite conducerea cvadriciclurilor și a vehiculelor cu masa maximă autorizată de până la 400 kg (550 kg pentru vehiculele destinate transportului de mărfuri)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimoniale -->
+        <section id="testimoniale" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Ce Spun Cursanții Noștri</h2>
+                <div class="row testimonials-slider">
+                    <!-- Testimonialele vor fi populate prin JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Formular Înscriere -->
+        <section id="inscriere" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Formular de Înscriere</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form id="inscriereForm" class="needs-validation" novalidate>
+                            <!-- Detalii personale -->
+                            <div class="mb-3">
+                                <h4>Informații Personale</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="nume" class="form-label">Nume complet</label>
+                                        <input type="text" class="form-control" id="nume" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="dataNasterii" class="form-label">Data nașterii</label>
+                                        <input type="date" class="form-control" id="dataNasterii" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Restul câmpurilor formularului -->
+                            <button type="submit" class="btn btn-primary">Trimite Înscrierea</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teste -->
+        <section id="teste" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Teste Auto</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <p class="lead mb-4">Pregătește-te pentru examenul auto cu testele noastre interactive!</p>
+                        <div class="test-features mb-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle mb-3"></i>
+                                        <h5>Întrebări Oficiale</h5>
+                                        <p>Întrebări similare cu cele din examenul real</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock mb-3"></i>
+                                        <h5>Timp Limitat</h5>
+                                        <p>Simulare reală a condițiilor de examen</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="feature-item">
+                                        <i class="fas fa-chart-line mb-3"></i>
+                                        <h5>Progres Vizibil</h5>
+                                        <p>Urmărește-ți evoluția în timp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="teste.html" class="btn btn-primary btn-lg">Începe Testul Auto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <h4>Informații de Contact</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Aleea 14 nr. 5A, Harman, Romania</p>
+                            <p><i class="fas fa-phone"></i> 0737 608 000</p>
+                            <p><i class="fas fa-envelope"></i> scoalastelad@yahoo.ro</p>
+                        </div>
+                        <div class="social-media mt-4">
+                            <a href="https://www.facebook.com/profile.php?id=61554137309558" target="_blank" class="me-3">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/scoala_stelad_brasov" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="program">
+                            <h4>Program</h4>
+                            <ul class="list-unstyled">
+                                <li>Luni - Vineri: 09:00 - 17:00</li>
+                                <li>Sâmbătă - Duminică: ÎNCHIS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hartă -->
+        <section id="harta" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Locație</h2>
+                <div id="map" style="height: 400px;"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Școala de Șoferi Stelad</h5>
+                    <p>Învață să conduci cu încredere</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2024 Școala de Șoferi Stelad. Toate drepturile rezervate.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/quiz-timer.js"></script>
+</body>
+</html>
